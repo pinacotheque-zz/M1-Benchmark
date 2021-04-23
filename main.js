@@ -83,21 +83,48 @@ console.log(withID)
 
 // 32) Get every "td" from the page
 
-let table = document.getElementById(thisTable)
-    tds = table.getElementsByTagName('td')
+// let table = document.getElementById(thisTable)
+//     tds = table.getElementsByTagName('td')
 
-for(let k=0; k<tds.lenght; k++){
-    console.log(this.innerHTML)
-}
+// for(let k=0; k<tds.lenght; k++){
+//     console.log(this.innerHTML)
+// }
 
 // 33) Create a cycle that prints the text inside every td of the page
 
 
 
 // 34) Write a function to change the heading of the page
+
+const changeHeading = function() {
+    let headingName = document.getElementById('h1Text')
+    headingName.innerText = 'Heading changed!'
+}
+changeHeading()
+
 // 35) Write a function to add an extra row to the table
+
+
 // 36) Write a function to add the class "test" to each row in the table
 // 37) Write a function to add a red background to every link in the page
 // 38) Console log "Page loaded" when the page is correctly loaded
+
 // 39) Write a function to add new items to a UL
+
+const newItems = function() {
+    let newListItem = document.createElement('li')
+    newListItem.innerText = 'new element added to this list'
+    let parentUl= document.getElementById('list')
+    parentUl.appendChild(newListItem)
+}
+newItems()
+
 // 40) Write a function to empty a list
+
+const emptyList= function() {
+    let parentUl = document.getElementById('list')
+    parentUl.innerText=''
+}
+
+
+
