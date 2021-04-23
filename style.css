@@ -1,0 +1,72 @@
+.body{
+    justify-content: space-between;
+    padding: 100px;
+    height: max-content;
+    width: fit-content;
+    align-items: center;
+} 
+
+h1 {
+    text-align: center;
+    color: tomato;
+}
+
+ img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+    align-items:baseline;
+    object-fit: cover;
+    border: 3px solid rgb(245, 213, 189) ;
+}
+
+table {
+    
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    text-align: center;
+    border-collapse: collapse;
+    
+}
+
+table th{
+    border: 1px solid navy;
+    
+    
+}
+
+table td,th{
+  justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+    text-align: baseline;
+    width: fit-content;
+    height: fit-content;
+    border: 2px solid olivedrab;
+
+}
+
+.table table th{
+    color: rgb(163, 132, 163);
+  
+    justify-content: space-between;
+    padding: 30px;
+    align-items: center;
+    padding-bottom: 15px;
+    text-align: center;
+    width: fit-content;
+    height: fit-content;
+    
+}
+
+#container p{
+    text-align: center;
+    width: fit-content;
+    line-height: 50px;
+    
+}
+
+.hideContent{
+    display: none;
+}
